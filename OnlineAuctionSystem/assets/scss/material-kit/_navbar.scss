@@ -3,7 +3,7 @@
     border-radius: $border-radius-base;
     padding: 0.625rem 0;
     margin-bottom: 20px;
-    @include navbar-colors($white-color, $navbar-color);
+    @include navbar-colors($blue-color, $navbar-color);
 
     &.fixed-top{
         border-radius: 0;
