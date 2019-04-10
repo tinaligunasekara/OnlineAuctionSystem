@@ -14,9 +14,94 @@
   <link href="assets/css/material-kit.min1036.css?v=2.0.5" rel="stylesheet" />
 
     <style>
-    .nav1{
-          background-color:00FBF0;
-    }
+.img{
+	height: 200px;
+	width: 200px;
+    cursor: pointer;
+	border: 1px solid white;
+    
+}
+.tableHead{
+    font-size: 50px;
+    padding: 50px;
+    font-family: Trebuchet MS;
+	color: white;
+	letter-spacing: 4px;
+    text-transform: uppercase;
+    
+}
+table{
+    text-align: center;
+     width: 85%;
+    
+}
+b{
+    
+    font-size: 28px;
+}
+.previous {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.next {
+    background-color: none;
+    color: black;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 40px;
+	font-family : Trebuchet MS;
+    font-size: 20px;
+    width: 17%;
+	text-decoration: none;
+}
+ 
+.next:hover {
+    color: #A7A7A7;	
+}
+
+.prev {
+    background-color: none;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 40px;
+	font-family : Trebuchet MS;
+    font-size: 20px;
+    width: 17%;
+	text-decoration: none;
+}
+
+.prev:hover {
+    color: #A7A7A7;	
+}
+
+.des{
+    height: auto;
+    width: auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(63, 63, 63);
+    padding: 1px;
+	font-family: Trebuchet MS;
+	color: white;
+	background-color: black;
+	opacity: 0.8;
+
+}
+
+span {
+    background-color: black;
+	padding: 5px;
+}
+
+#nextprev {
+	background-color: white;
+	border: 1px solid black;
+}
   </style>
 
 </head>
@@ -170,41 +255,48 @@
           </nav>
     <div class="container">
       <div class="section text-center">
-        <h2 class="title"> </h2>
+        <h2 class="title"> CATEGORIES</h2>
       </div>
 
-      <div class="row">
-          <div class="col-md-6">
-            <div class="card card-raised card-background" style="background-image: url('../assets/img/examples/office2.jpg')">
-              <div class="card-body">
-                <h6 class="card-category text-info">Worlds</h6>
-                <a href="#pablo">
-                  <h3 class="card-title">The Best Productivity Apps on Market</h3>
-                </a>
-                <p class="card-description">
-                  Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                </p>
-                <a href="#pablo" class="btn btn-danger btn-round">
-                  <i class="material-icons">format_align_left</i> Read Article
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card card-raised card-background" style="background-image: url('../assets/img/examples/blog8.jpg')">
-              <div class="card-body">
-                <h6 class="card-category text-info">Business</h6>
-                <h3 class="card-title">Working on Wallstreet is Not So Easy</h3>
-                <p class="card-description">
-                  Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-round">
-                  <i class="material-icons">format_align_left</i> Read Article
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+<table align="center">
+           
+           <tr>
+               <td width="25%"><a href=""><img src = "img/cat1.jpg" class="img"></td>
+               <td width="25%"><a href=""><img src = "img/cat2.jpg" class="img"></td>
+               <td width="25%"><a href=""><img src = "img/cat3.jpg" class="img"></td>
+               <td width="25%"><a href=""><img src = "img/cat4.jpg" class="img"></td>
+            </tr>
+           
+            <tr>
+                <td class="des"><b>WATCHES</b></br>
+                </td>
+                <td class="des"><b>SUNGLASSES</b></br>
+                   </td>
+                <td class="des"><b>JEWELRY</b></br>
+                   </td>
+                <td class="des"><b>COMPUTERS& ELECTRONICS</b></br>
+                   </td>
+            </tr></br>
+            
+
+            <tr>
+                    <td><a href=""><img src = "img/cat5.jpg" class="img"></td>
+                    <td><a href=""><img src = "img/cat6.jpg" class="img"></td>
+                    <td><a href=""><img src = "img/cat7.jpg" class="img"></td>
+                    <td><a href=""><img src = "img/cat8.jpg" class="img"></td>
+            </tr>
+
+            <tr>
+                    <td class="des"><b>HOME & HEALTH</b></br>
+                    </td>
+                    <td class="des"><b>SPORTS</b></br>
+                       </td>
+                    <td class="des"><b></b></br>
+                       </td>
+                    <td class="des"><b></b></br>
+                       </td>
+                </tr>
+        </table>
 	  
 
     </div>
