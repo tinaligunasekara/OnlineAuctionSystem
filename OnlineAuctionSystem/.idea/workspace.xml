@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea16fa52-c243-4dad-a5f4-feee7058a9af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cat2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cat3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cat4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cat5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cat6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact us.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,19 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="301" column="7" lean-forward="true" selection-end-line="301" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/2nd Year/Project/Tin/new/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -111,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="160" column="66" selection-start-line="160" selection-start-column="66" selection-end-line="160" selection-end-column="66" />
+            <state relative-caret-position="317">
+              <caret line="151" column="62" lean-forward="true" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -171,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554957946911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554958971032" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -214,12 +225,12 @@
       <workItem from="1552539963079" duration="536000" />
       <workItem from="1552613505134" duration="1447000" />
       <workItem from="1552691472906" duration="699000" />
-      <workItem from="1554954326925" duration="3681000" />
+      <workItem from="1554954326925" duration="3688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6363000" />
+    <option name="totallyTimeSpent" value="6370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -273,7 +284,7 @@
     <entry file="file://$USER_HOME$/Downloads/2nd Year/Project/Tin/new/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -286,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="160" column="66" selection-start-line="160" selection-start-column="66" selection-end-line="160" selection-end-column="66" />
+        <state relative-caret-position="317">
+          <caret line="151" column="62" lean-forward="true" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
         </state>
       </provider>
     </entry>
