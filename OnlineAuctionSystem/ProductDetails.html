@@ -14,13 +14,13 @@
     <link href="assets/css/material-kit.min1036.css?v=2.0.5" rel="stylesheet" />
 
     <style>
-        .img{
+       /* .img{
             height: 200px;
             width: 200px;
             cursor: pointer;
             border: 1px solid white;
 
-        }
+        }*/
         .tableHead{
             font-size: 50px;
             padding: 50px;
@@ -101,6 +101,19 @@
         #nextprev {
             background-color: white;
             border: 1px solid black;
+        }
+        .btn{
+            margin-left: -200px;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        h5{
+            color: mediumvioletred;
+        }
+        table{
+            margin-left: -80px;
         }
     </style>
 
@@ -194,41 +207,10 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="tab-content">
-                        <div class="tab-pane" id="product-page1">
-                            <img src="../assets/img/examples/product1.jpg">
-                        </div>
                         <div class="tab-pane active" id="product-page2">
-                            <img src="../assets/img/examples/product2.jpg">
-                        </div>
-                        <div class="tab-pane" id="product-page3">
-                            <img src="../assets/img/examples/product3.jpg">
-                        </div>
-                        <div class="tab-pane" id="product-page4">
-                            <img src="../assets/img/examples/product4.jpg">
+                            <img src="img/w1.jpg">
                         </div>
                     </div>
-                    <ul class="nav flexi-nav" data-tabs="tabs" id="flexiselDemo1">
-                        <li class="nav-item">
-                            <a href="#product-page1" class="nav-link" data-toggle="tab">
-                                <img src="../assets/img/examples/product1.jpg">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#product-page2" class="nav-link" data-toggle="tab">
-                                <img src="../assets/img/examples/product2.jpg">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#product-page3" class="nav-link" data-toggle="tab">
-                                <img src="../assets/img/examples/product3.jpg">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#product-page4" class="nav-link" data-toggle="tab">
-                                <img src="../assets/img/examples/product4.jpg">
-                            </a>
-                        </li>
-                    </ul>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <h2 class="title"> Becky Silk Blazer </h2>
@@ -248,63 +230,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card card-collapse">
-                            <div class="card-header" role="tab" id="headingTwo">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Designer Information
-                                        <i class="material-icons">keyboard_arrow_down</i>
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    An infusion of West Coast cool and New York attitude, Rebecca Minkoff is synonymous with It girl style. Minkoff burst on the fashion scene with her best-selling &apos;Morning After Bag&apos; and later expanded her offering with the Rebecca Minkoff Collection - a range of luxe city staples with a &quot;downtown romantic&quot; theme.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-collapse">
-                            <div class="card-header" role="tab" id="headingThree">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Details and Care
-                                        <i class="material-icons">keyboard_arrow_down</i>
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                    <ul>
-                                        <li>Storm and midnight-blue stretch cotton-blend</li>
-                                        <li>Notch lapels, functioning buttoned cuffs, two front flap pockets, single vent, internal pocket</li>
-                                        <li>Two button fastening</li>
-                                        <li>84% cotton, 14% nylon, 2% elastane</li>
-                                        <li>Dry clean</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+
+                        <table>
+                            <tr>
+                                <td><h5>Time</h5></td>
+                                <td><a>1:02:45</a></td>
+                            </tr>
+                        <tr>
+                            <td><h5>Quantity</h5></td>
+                            <td><a>12</a></td>
+                        </tr>
+                        <tr>
+                            <td><h5>Bid Rs.</h5>
+                            <td><a>250.00</a></td>
+                        </tr>
+                        </table>
                     </div>
-                    <div class="row pick-size">
-                        <div class="col-md-6 col-sm-6">
-                            <label>Select color</label>
-                            <select class="selectpicker" data-style="select-with-transition" data-size="7">
-                                <option value="1">Rose </option>
-                                <option value="2">Gray</option>
-                                <option value="3">White</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <label>Select size</label>
-                            <select class="selectpicker" data-style="select-with-transition" data-size="7">
-                                <option value="1">Small </option>
-                                <option value="2">Medium</option>
-                                <option value="3">Large</option>
-                            </select>
-                        </div>
-                    </div>
+
                     <div class="row pull-right">
-                        <button class="btn btn-rose btn-round">Add to Cart &#xA0;<i class="material-icons">shopping_cart</i></button>
+                        <button class="btn btn-primary btn-round">Place Bid</button>
                     </div>
                 </div>
             </div>
